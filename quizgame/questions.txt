@@ -1,0 +1,72 @@
+1. High entropy means that the partitions in classification are
+a) pure
+b) not pure
+c) useful
+d) useless
+
+View Answer
+
+Answer: (b) Not pure
+Entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.
+It is a measure of disorder or purity or unpredictability or uncertainty.
+Low entropy means less uncertain and high entropy means more uncertain.
+
+2. A machine learning problem involves four attributes plus a class. The attributes have 3, 2, 2, and 2 possible values each. The class has 3 possible values. How many maximum possible different examples are there?
+a) 12
+b) 24
+c) 48
+d) 72
+
+View Answer
+
+Maximum possible different examples are the products of the possible values of each attribute and the number of classes;
+3 * 2 * 2 * 2 * 3 = 72
+Answer: (d) 72
+
+
+3. Which of the following is NOT supervised learning?
+a) PCA
+b) Decision Tree
+c) Linear Regression
+d) Naive Bayesian
+
+View Answer
+
+Answer: (a) PCA
+Principal Component Analysis (PCA) is not predictive analysis tool. It is a data pre-processing tool. It helps in picking out the most relevant linear combination of variables and use them in our predictive model.
+PCA is a technique for reducing the dimensionality of large datasets, increasing interpretability but at the same time minimizing information loss.
+
+
+Supervised learning
+Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples.
+
+Unsupervised learning
+Unsupervised learning is a type of machine learning task where you only have to insert the input data (X) and no corresponding output variables are needed (or not known). It does not have labeled data for training. Algorithms are left to their own devices to help discover and present the interesting structure that is present in the data.
+
+4. Which of the following statements about Naive Bayes is incorrect?
+a) Attributes are equally important.
+b) Attributes are statistically dependent of one another given the class value.
+c) Attributes are statistically independent of one another given the class value.
+d) Attributes can be nominal or numeric
+
+View Answer
+
+Answer: (b) Attributes are statistically dependent of one another given the class value
+Attributes are statistically independent of one another given the class value.
+Naïve Bayes
+Naïve Bayes classifier assumes conditional independence between attributes and assigns the MAP class to new instances.
+Naive Bayes is a classification algorithm for binary (two-class) and multi-class classification problems. The technique is easiest to understand when described using binary or categorical input values.
+It is called naive Bayes because the calculation of the probabilities for each hypothesis are simplified to make their calculation tractable. Rather than attempting to calculate the values of each attribute value P(d1, d2, d3|h), they are assumed to be conditionally independent given the target value and calculated as P(d1|h) * P(d2|H) and so on.
+
+5. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?
+a) Decision Trees
+b) Density-based clustering
+c) Model-based clustering
+d) K-means clustering
+
+View Answer
+
+Answer: (b) Density-based clustering
+The density-based clustering methods recognize clusters based on density function distribution of the data object. For clusters with arbitrary shapes, these algorithms connect regions with sufficiently high densities into clusters.
+
+**********************
